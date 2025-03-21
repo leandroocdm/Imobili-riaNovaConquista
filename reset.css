@@ -1,0 +1,29 @@
+/* Reset CSS */
+
+/* Remove a margem e o padding de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define estilos básicos para elementos de formulário */
+input,
+button,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* Remove a decoração de links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Define estilos básicos para listas */
+ul,
+ol {
+    list-style: none;
+}
